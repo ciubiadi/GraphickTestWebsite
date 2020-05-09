@@ -8,15 +8,16 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     </head>
 <body>
     <header>
         <div class="container">
             <div id="logo">
-                <h1>Test</h1>
+                <h1 class="animate__animated animate__lightSpeedInRight">Test</h1>
             </div>
             <nav>
-                <ul>
+                <ul class="animate__animated animate__fadeIn">
                     <li><a href="#">Technology</a></li>
                     <li><a href="#">Ideas</a></li>
                     <li><a href="#">Leadership</a></li>
@@ -27,7 +28,7 @@
                     <li><a href="#">Entertainment</a></li>
                 </ul>
             </nav>
-            <div class="bars" onclick="myFunction(this)">
+            <div class="bars animate__animated animate__flash" onclick="myFunction(this)">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
@@ -38,9 +39,24 @@
         <div class="container">
             <div class="wrap">
                 <div class="box box1">
-                    <button>Finance</button>
-                    <h1>This tie brand is bucking the retail apocalupse with a massive store expansion</h1>
-                    <p>There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun. 
+                    <button style="position: absolute;
+                    top: 50%;
+                    left: 71%;
+                    height: 4%;
+                    width: 8%;
+                    margin: -15% 0 0 -25%; color: #ffffff; text-transform: uppercase; background-color: #ff565c; border: #ff565c;">Finance</button>
+                    <h1 style="position: absolute;
+                    top: 60%;
+                    left: 48%;
+                    height: 30%;
+                    width: 55%;
+                    margin: -15% 0 0 -25%; text-transform: uppercase; color:#ffffff">This tie brand is bucking the retail apocalypse with a massive store expansion</h1>
+                    <p style="position: absolute;
+                    top: 80%;
+                    left: 48%;
+                    height: 30%;
+                    width: 55%;
+                    margin: -15% 0 0 -25%; color: lightgray">There is a lot of exciting stuff going on in the stars above us that makes astronomy so much fun. 
                         The truth is the universe is a constaly changing moving</p>
                 </div>
                 <div class="box box2">
@@ -109,39 +125,6 @@
             </div>
         </div>
     </footer>
-    
-<!-- 
-    <footer>
-        <div class="container">
-            <div class="footerWrap">
-                <div class="f f1">
-                    1
-                </div>
-                <div class="f f2">
-                    2
-                </div>
-                <div class="f f3">
-                    3
-                </div>
-                <div class="f f4">
-                    4
-                </div>
-                <div class="f f5">
-                    5
-                </div>
-                <div class="f f6">
-                    6
-                </div>
-                <div class="f f7">
-                    7
-                </div>
-                <div class="f f8">
-                    8
-                </div>
-            </div>
-        </div>
-    </footer>
-    -->
 
     <script>
         function myFunction(x) {
